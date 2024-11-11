@@ -1,0 +1,107 @@
+.container-form-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+  }
+  
+  .form-container {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .contactanos-form h2 {
+    color: #42ab49;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #bddeb3; 
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5px;
+  }
+  
+  .form-control:focus {
+    border-color: #80c783;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  .btn-primary {
+    background-color: #42ab49;
+    border: none;
+    color: #fafafa;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #80c783;
+  }
+  
+
+  .image-container {
+    flex-shrink: 0;
+  }
+  
+  .form-image {
+    width: 1000%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+.btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545; 
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-volver:hover {
+    background-color: #c82333;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .container-form-image {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .form-image {
+      max-width: 100%;
+    }
+  }
+  

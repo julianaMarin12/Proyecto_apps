@@ -1,0 +1,101 @@
+.container-form-image {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .historico-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .historico-form h2 {
+    color: #42ab49; 
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bddeb3; 
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form-control:focus {
+    border-color: #80c783; 
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-vacunacion {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-vacunacion th, .table-vacunacion td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #bddeb3;
+  }
+  
+  .table-vacunacion th {
+    background-color: #42ab49; 
+    color: #ffffff;
+  }
+  
+  .table-vacunacion tr:nth-child(even) {
+    background-color: #dcf5d6; 
+  }
+  
+  
+  .historico-form a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42ab49; 
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .historico-form a:hover {
+    background-color: #80c783; 
+  }
+  
+  .historico-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #28a745; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .historico-form button:hover {
+    background-color: #218838; 
+  }
+  

@@ -1,4 +1,3 @@
-/* Contenedor principal */
 .nosotros-container {
     font-family: Arial, sans-serif;
     color: #333;
@@ -7,10 +6,10 @@
     padding: 20px;
   }
   
-  /* Sección de bienvenida */
+
   .hero-section {
-    background-color: #42ab49; /* Color primario */
-    color: #fafafa; /* Texto blanco */
+    background-color: #42ab49; 
+    color: #fafafa; 
     text-align: center;
     padding: 40px;
     border-radius: 8px;
@@ -25,20 +24,18 @@
     font-size: 1.2em;
   }
   
-  /* Sección de misión y visión */
   .about-section, .vision-section {
     margin-top: 30px;
     padding: 20px;
-    background-color: #f9f9f9; /* Fondo neutro */
+    background-color: #f9f9f9;
     border-radius: 8px;
   }
   
   .about-section h2, .vision-section h2 {
-    color: #42ab49; /* Color primario */
+    color: #42ab49; 
     font-size: 1.8em;
   }
   
-  /* Sección del equipo */
   .team-section {
     margin-top: 30px;
     text-align: center;
@@ -58,7 +55,7 @@
   }
   
   .team-member {
-    background-color: #fafafa; /* Fondo neutro */
+    background-color: #fafafa; 
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
@@ -79,7 +76,7 @@
   }
   
   .team-member h3 {
-    color: #80c783; /* Color secundario */
+    color: #80c783; 
     font-size: 1.4em;
     margin: 10px 0 5px;
   }

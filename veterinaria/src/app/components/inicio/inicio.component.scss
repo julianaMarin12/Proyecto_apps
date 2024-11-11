@@ -6,24 +6,24 @@
   }
 
 
-/* Sección de Mockup */
+
 .mockup-section {
-  background-color: #F5F5F5; /* Color de fondo gris claro */
+  background-color: #F5F5F5;
   padding: 2rem;
   text-align: center;
 }
 
 .mockup-section h2 {
-  color: #42ab49; /* Color primario (Leapfrog) */
-  margin-bottom: 1rem;
+  color: #42ab49; 
+  margin-bottom: 2rem;
 }
 
 h3 {
   color: #42ab49;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .mockup-section p {
-  color: #333333; /* Texto oscuro para contraste */
+  color: #333333; 
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
@@ -35,10 +35,10 @@ h3 {
 }
 
 .mockup-images img {
-  width: 500px; /* Ajusta el tamaño de las imágenes */
-  height: auto; /* Mantiene la relación de aspecto */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 800px; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .features-list, .benefits-list {
@@ -49,23 +49,22 @@ h3 {
 
 .testimonials {
   margin: 2rem 0;
-  background-color: #f9f9f9; /* Fondo gris claro para diferenciar */
+  background-color: #f9f9f9; 
   padding: 1rem;
-  border-radius: 8px; /* Bordes redondeados */
+  border-radius: 8px; 
 }
 
 .testimonials blockquote {
-  border-left: 4px solid #04b189; /* Color de acento */
+  border-left: 4px solid #04b189; 
   margin: 1rem 0;
   padding-left: 1rem;
   font-style: italic;
 }
 
-/* Botón de llamada a la acción */
 .cta-button {
   display: inline-block;
-  background-color: #04b189; /* Color primario */
-  color: #FFFFFF; /* Texto blanco */
+  background-color: #04b189; 
+  color: #FFFFFF;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
@@ -73,7 +72,7 @@ h3 {
 }
 
 .cta-button:hover {
-  background-color: #009975; /* Cambia a color de acento al pasar el ratón */
+  background-color: #009975; 
 }
 
 /* Estados */

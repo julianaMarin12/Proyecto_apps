@@ -1,30 +1,35 @@
-.navbar {
+  .navbar {
     display: flex;
-    justify-content:flex-end; /* Espacio entre los enlaces */
-    align-items: center; /* Centrar verticalmente los elementos */
-    background-color: #42ab49; /* Color de fondo */
-    padding: 15px 30px; /* Espaciado alrededor de la barra de navegación */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #42ab49; 
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 1.2rem; 
+
   }
-  
+
+
   .navbar-link {
-    padding: 10px 15px; /* Espaciado alrededor del enlace */
-    
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s ease; 
   }
-  
+
+  .navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 4px;
+  }
  
-  
-  
-  /* Sección de Mockup */
   .mockup-section {
-    background-color: #F5F5F5; /* Color de fondo gris claro */
+    background-color: #F5F5F5; 
     padding: 2rem;
     text-align: center;
   }
   
   .mockup-section h2 {
-    color: #42ab49; /* Color primario (Leapfrog) */
+    color: #42ab49; 
     margin-bottom: 1rem;
   }
   
@@ -33,7 +38,7 @@
     margin-bottom: 1rem;
   }
   .mockup-section p {
-    color: #333333; /* Texto oscuro para contraste */
+    color: #333333;
     margin-bottom: 2rem;
     font-size: 1.1rem;
   }
@@ -45,10 +50,10 @@
   }
   
   .mockup-images img {
-    width: 200px; /* Ajusta el tamaño de las imágenes */
-    height: auto; /* Mantiene la relación de aspecto */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 200px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .features-list, .benefits-list {
@@ -59,23 +64,23 @@
   
   .testimonials {
     margin: 2rem 0;
-    background-color: #f9f9f9; /* Fondo gris claro para diferenciar */
+    background-color: #f9f9f9; 
     padding: 1rem;
-    border-radius: 8px; /* Bordes redondeados */
+    border-radius: 8px;
   }
   
   .testimonials blockquote {
-    border-left: 4px solid #04b189; /* Color de acento */
+    border-left: 4px solid #04b189;
     margin: 1rem 0;
     padding-left: 1rem;
     font-style: italic;
   }
   
-  /* Botón de llamada a la acción */
+
   .cta-button {
     display: inline-block;
-    background-color: #04b189; /* Color primario */
-    color: #FFFFFF; /* Texto blanco */
+    background-color: #04b189; 
+    color: #FFFFFF; 
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
@@ -85,17 +90,16 @@
   
   /* Footer */
   footer {
-    background-color: #42ab49; /* Color primario (Leapfrog) */
-    color: #FFFFFF; /* Texto blanco */
+    background-color: #42ab49; 
+    color: #FFFFFF;
     padding: 2rem;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+    font-size: 1.2rem; 
   }
-  
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -106,10 +110,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
   }
   
   .footer-logo img {
-    width: 150px; /* Ajusta el tamaño del logo */
+    width: 80px;
   }
   
   .footer-links {
@@ -118,33 +123,33 @@
   }
   
   .footer-links a {
-    color: #FFFFFF; /* Texto blanco */
+    color: #FFFFFF; 
     text-decoration: none;
   }
   
   .footer-links a:hover {
-    color: #DD9149; /* Color de hover para los enlaces del footer */
+    color: #DD9149; 
   }
   
   
   .cta-button:hover {
-    background-color: #009975; /* Cambia a color de acento al pasar el ratón */
+    background-color: #009975; 
   }
   
   /* Estados */
   .success {
-    color: #28A745; /* Éxito */
+    color: #28A745; 
   }
   
   .error {
-    color: #DC3545; /* Error */
+    color: #DC3545;
   }
   
   .warning {
-    color: #FFC107; /* Advertencia */
+    color: #FFC107; 
   }
   
   .info {
-    color: #17A2B8; /* Información */
+    color: #17A2B8; 
   }
   
