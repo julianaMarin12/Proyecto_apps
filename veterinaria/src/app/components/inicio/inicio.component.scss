@@ -1,0 +1,96 @@
+.container {
+    background-color: var(--primary-color);
+    color: var(--neutral-white);
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+
+/* Sección de Mockup */
+.mockup-section {
+  background-color: #F5F5F5; /* Color de fondo gris claro */
+  padding: 2rem;
+  text-align: center;
+}
+
+.mockup-section h2 {
+  color: #42ab49; /* Color primario (Leapfrog) */
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #42ab49;
+  margin-bottom: 1rem;
+}
+.mockup-section p {
+  color: #333333; /* Texto oscuro para contraste */
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.mockup-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mockup-images img {
+  width: 500px; /* Ajusta el tamaño de las imágenes */
+  height: auto; /* Mantiene la relación de aspecto */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.features-list, .benefits-list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.testimonials {
+  margin: 2rem 0;
+  background-color: #f9f9f9; /* Fondo gris claro para diferenciar */
+  padding: 1rem;
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.testimonials blockquote {
+  border-left: 4px solid #04b189; /* Color de acento */
+  margin: 1rem 0;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* Botón de llamada a la acción */
+.cta-button {
+  display: inline-block;
+  background-color: #04b189; /* Color primario */
+  color: #FFFFFF; /* Texto blanco */
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #009975; /* Cambia a color de acento al pasar el ratón */
+}
+
+/* Estados */
+.success {
+  color: #28A745; /* Éxito */
+}
+
+.error {
+  color: #DC3545; /* Error */
+}
+
+.warning {
+  color: #FFC107; /* Advertencia */
+}
+
+.info {
+  color: #17A2B8; /* Información */
+}
+
+  

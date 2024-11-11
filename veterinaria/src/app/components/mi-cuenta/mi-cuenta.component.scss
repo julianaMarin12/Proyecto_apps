@@ -1,0 +1,115 @@
+/* Estilos generales para el formulario */
+form {
+  background-color: #fafafa; /* Fondo blanco para el formulario */
+  border-radius: 10px;
+  padding: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor */
+  width: 100%; /* Asegura que el formulario use todo el espacio disponible */
+  max-width: 500px; /* Máximo tamaño del formulario */
+  text-align: center;
+}
+
+/* Estilo de contenedor flexbox para formulario e imagen */
+.container-form-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espacio entre la imagen y el formulario */
+  margin: 20px;
+}
+
+/* Estilo para los campos de entrada (input) */
+.form-control {
+  border: 2px solid #80c783; /* Verde estimulante para los bordes */
+  border-radius: 5px;
+  background-color: #dcf5d6; /* Toque de menta para el fondo */
+  font-size: 1.2rem; /* Aumentamos el tamaño del texto */
+  padding: 15px; /* Mayor espacio dentro de los campos */
+}
+
+.form-control:focus {
+  border-color: #42ab49; /* Leapfrog para el borde cuando está enfocado */
+  box-shadow: 0 0 5px rgba(66, 171, 73, 0.5); /* Sombra verde cuando está enfocado */
+}
+
+/* Estilo para las etiquetas (labels) */
+.form-label {
+  color: #000000; /* Negro para las etiquetas */
+  font-weight: 600;
+  font-size: 1.1rem; /* Aumentamos el tamaño de las etiquetas */
+}
+
+/* Estilos para la estructura del formulario de 2 columnas */
+.row.mb-4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo de los checkboxes */
+.form-check-input {
+  background-color: #bddeb3; /* Naturaleza para el fondo del checkbox */
+}
+
+.form-check-label {
+  color: #000000; /* Negro para las etiquetas del checkbox */
+}
+
+
+
+/* Enlaces de "Forgot password?" y "Register" */
+a {
+  color: #42ab49; /* Leapfrog para los enlaces */
+}
+
+a:hover {
+  color: #80c783; /* Verde estimulante cuando se pasa el ratón */
+}
+
+/* Estilo para el botón de submit */
+.btn-primary {
+  background-color: #42ab49; /* Leapfrog para el botón */
+  border: none;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 15px 30px; /* Mayor tamaño y padding para el botón */
+  font-weight: 600;
+  font-size: 1.1rem; /* Aumentamos el tamaño del texto */
+}
+
+.btn-primary:hover {
+  background-color: #80c783; /* Verde estimulante para el hover */
+}
+
+/* Estilo para el texto centrado al final */
+.text-center p {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* Estilo para el enlace de registro */
+.text-center a {
+  color: #42ab49; /* Leapfrog para el enlace de registro */
+}
+
+.text-center a:hover {
+  color: #80c783; /* Verde estimulante para el hover */
+}
+
+/* Estilo para la imagen al lado del formulario */
+.image-container {
+  width: 1000px; /* Ancho de la imagen */
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}

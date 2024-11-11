@@ -1,0 +1,127 @@
+/* Estilos generales para el formulario */
+form {
+    background-color: #fafafa; /* Fondo blanco para el formulario */
+    border-radius: 10px;
+    padding: 40px; /* Ajuste el padding para que no esté tan cargado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor */
+    width: 100%; /* Asegura que el formulario use todo el espacio disponible */
+    max-width: 500px; /* Máximo tamaño del formulario */
+    text-align: center;
+    margin: 0 auto; /* Centrar el formulario en la pantalla */
+  }
+  
+  /* Estilo de contenedor flexbox para formulario e imagen */
+  .container-form-image {
+    display: flex;
+    flex-wrap: wrap; /* Permite que el formulario y la imagen se ajusten en pantallas pequeñas */
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Espacio entre la imagen y el formulario */
+    margin: 20px;
+  }
+  
+  /* Estilo para los campos de entrada (input) */
+  .form-control {
+    border: 2px solid #80c783; /* Verde estimulante para los bordes */
+    border-radius: 5px;
+    background-color: #dcf5d6; /* Toque de menta para el fondo */
+    font-size: 1.2rem; /* Aumentamos el tamaño del texto */
+    padding: 15px; /* Mayor espacio dentro de los campos */
+    width: 100%; /* Asegura que los inputs ocupen todo el espacio disponible */
+    margin-bottom: 15px; /* Espacio debajo de cada campo */
+  }
+  
+  .form-control:focus {
+    border-color: #42ab49; /* Leapfrog para el borde cuando está enfocado */
+    box-shadow: 0 0 5px rgba(66, 171, 73, 0.5); /* Sombra verde cuando está enfocado */
+  }
+  
+  /* Estilo para las etiquetas (labels) */
+  .form-label {
+    color: #000000; /* Negro para las etiquetas */
+    font-weight: 600;
+    font-size: 1.1rem; /* Aumentamos el tamaño de las etiquetas */
+    text-align: left;
+    display: block; /* Asegura que las etiquetas estén sobre el campo */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+  }
+  
+  /* Estilos para la estructura del formulario de 2 columnas */
+  .row.mb-4 {
+    display: flex;
+    flex-wrap: wrap; /* Asegura que las columnas se acomoden en pantallas pequeñas */
+    justify-content: space-between;
+  }
+  
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 45%; /* Cada columna ocupa un 45% del ancho */
+  }
+  
+  /* Estilo de los checkboxes */
+  .form-check-input {
+    background-color: #bddeb3; /* Naturaleza para el fondo del checkbox */
+  }
+  
+  .form-check-label {
+    color: #000000; /* Negro para las etiquetas del checkbox */
+  }
+  
+  /* Enlaces de "Olvidaste la contraseña?" y "Registrarse" */
+  a {
+    color: #42ab49; /* Leapfrog para los enlaces */
+  }
+  
+  a:hover {
+    color: #80c783; /* Verde estimulante cuando se pasa el ratón */
+  }
+  
+  /* Estilo para el botón de submit */
+  .btn-primary {
+    background-color: #42ab49; /* Leapfrog para el botón */
+    border: none;
+    color: #fafafa; /* Texto blanco en el botón */
+    border-radius: 5px;
+    padding: 15px 30px; /* Mayor tamaño y padding para el botón */
+    font-weight: 600;
+    font-size: 1.1rem; /* Aumentamos el tamaño del texto */
+    width: 100%; /* El botón ocupa todo el ancho del formulario */
+    margin-top: 20px; /* Espacio superior para separar el botón de los campos */
+  }
+  
+  .btn-primary:hover {
+    background-color: #80c783; /* Verde estimulante para el hover */
+  }
+  
+  /* Estilo para el texto centrado al final */
+  .text-center p {
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  /* Estilo para el enlace de registro */
+  .text-center a {
+    color: #42ab49; /* Leapfrog para el enlace de registro */
+  }
+  
+  .text-center a:hover {
+    color: #80c783; /* Verde estimulante para el hover */
+  }
+  
+  /* Estilo para la imagen al lado del formulario */
+  .image-container {
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho disponible */
+    max-width: 1000px; /* Máximo tamaño de la imagen */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espacio superior para separar la imagen del formulario */
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

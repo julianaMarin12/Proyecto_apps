@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #42ab49;
+    --secondary-color: #80c783;
+    --tertiary-color-1: #bddeb3;
+    --tertiary-color-2: #dcf5d6;
+    --neutral-white: #fafafa;
+    --neutral-black: #000000;
+    
+    /* Estados */
+    --success-color: #28A745;
+    --error-color: #DC3545;
+    --warning-color: #FFC107;
+    --info-color: #17A2B8;
+  }
+  
+  body {
+    background-color: var(--neutral-white);
+    color: var(--neutral-black);
+  }
+  
+  .success {
+    background-color: var(--success-color);
+    color: var(--neutral-white);
+  }
+  
+  .error {
+    background-color: var(--error-color);
+    color: var(--neutral-white);
+  }
+  
+  .warning {
+    background-color: var(--warning-color);
+    color: var(--neutral-black);
+  }
+  
+  .info {
+    background-color: var(--info-color);
+    color: var(--neutral-white);
+  }
+
+  .mockup-section {
+    padding: 2rem;
+  }
+  
+  .mockup-content {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .mockup-text {
+    flex: 1;
+    color: #333333; /* Color de texto */
+  }
+  
+  .mockup-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .mockup-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
