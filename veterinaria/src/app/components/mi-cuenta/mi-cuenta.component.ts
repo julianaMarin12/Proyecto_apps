@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './mi-cuenta.component.scss'
 })
 export class MiCuentaComponent {
+  
 
 }
